@@ -1,18 +1,17 @@
 body{
 	font-family:Arial,Helvetica,sans-serif;
+	border:collapse;
 }
 
 table{
-	border:1;
-	border-color:solid black;
+	border:1px solid black;
 }
 
 th{
-	border:1;
-	border-color: solid black;
+	border:1px solid black;
+
 }
 
 td{
-	border:1;
-	border-color: solid black;
+	border:1px solid black;
 }
