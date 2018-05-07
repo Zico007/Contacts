@@ -15,7 +15,7 @@ body{
 
 #contactDetails{
 	border:1px solid black;
-	color:#999999;
+	color:#333333;
 	margin:15px;
 	padding:15px;
 }
@@ -56,10 +56,16 @@ th{
 td{
 	border:1px solid black;
 	padding:5px;
+	color: #333333;
 }
 
 tbody tr:nth-child(even){
 	background-color:#E6E6F5;
+
+}
+
+caption{
+	color:#333333;
 }
 
 tfoot{
