@@ -5,7 +5,7 @@ body{
 	color:#333333;
 }
 
-#header{
+header{
 	background:#3056A0;
 	color:#FFFFFF;
 	text-align: center;
@@ -25,6 +25,10 @@ body{
 	color:#999999;
 	margin:15px;
 	padding:15px;
+}
+
+.addControls{
+	padding: 15px;
 }
 
 .formRow{
@@ -59,6 +63,17 @@ td{
 	color: #333333;
 }
 
+.mininotes{
+	height: 100px;
+	width: 300px;
+	border: 1px solid #333333;
+	background-color:#eeeeee;
+	padding: 10px;
+	display: none;
+	position: absolute;
+	z-index:1;
+}
+
 tbody tr:nth-child(even){
 	background-color:#E6E6F5;
 
@@ -73,7 +88,7 @@ tfoot{
 	text-align:right;
 }
 
-#footer{
+footer{
 	line-height: 40px;
 	font-size:15px;
 	text-align:center;
